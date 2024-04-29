@@ -19,7 +19,7 @@ builder.Services.AddDbContextPool<ApplicationDbContext>(
 
 builder.Services
     .AddGraphQLServer()
-    .AddBlazorGraphQLTypes() // AddTypes
+    .AddTypes()
     .AddFiltering()
     .AddSorting()
     // .AddProjections()
