@@ -1,0 +1,15 @@
+query GetBlogs {
+    blogs(first: 10) {
+        nodes {
+            id,
+            url,
+            posts {
+                nodes {
+                    id,
+                    title,
+                    content
+                }
+            }
+        }
+    }
+}

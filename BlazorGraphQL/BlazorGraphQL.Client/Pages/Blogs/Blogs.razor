@@ -1,0 +1,24 @@
+﻿@page "/blogs"
+@rendermode InteractiveWebAssembly
+
+<PageTitle>Blogs</PageTitle>
+
+<h1>Blogs</h1>
+
+<UseGetBlogs>
+    <ChildContent>
+        <ul>
+            @foreach (var item in context.Blogs!.Nodes!)
+            {
+                <li>@item.Url - (@item.Posts?.Nodes?.Count ?? 0)</li>
+            }
+        </ul>
+    </ChildContent>
+    <ErrorContent>
+        Something went wrong ...<br/>
+        @context.First().Message
+    </ErrorContent>
+    <LoadingContent>
+        Loading ...
+    </LoadingContent>
+</UseGetBlogs>

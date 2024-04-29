@@ -1,0 +1,21 @@
+{
+  "schema": "schema.graphql",
+  "documents": "**/*.graphql",
+  "extensions": {
+    "strawberryShake": {
+      "name": "MyApiClient",
+      "namespace": "BlazorGraphQL.GraphQL",
+      "url": "http://localhost:5124/graphql",
+      "records": {
+        "inputs": false,
+        "entities": true
+      },
+      "transportProfiles": [
+        {
+          "default": "Http",
+          "subscription": "WebSocket"
+        }
+      ]
+    }
+  }
+}

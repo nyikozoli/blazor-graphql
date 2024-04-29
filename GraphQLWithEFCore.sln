@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GraphQLWithEFCore", "GraphQLWithEFCore\GraphQLWithEFCore.csproj", "{6A6758AA-38C9-4486-AB77-1DED0F5D75CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorGraphQL", "BlazorGraphQL\BlazorGraphQL\BlazorGraphQL.csproj", "{0E2B66E6-F695-4228-829F-0B14C4D1BFBC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorGraphQL.Client", "BlazorGraphQL\BlazorGraphQL.Client\BlazorGraphQL.Client.csproj", "{610E0EE8-C9FC-4F26-834C-768A25999A6A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6A6758AA-38C9-4486-AB77-1DED0F5D75CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A6758AA-38C9-4486-AB77-1DED0F5D75CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A6758AA-38C9-4486-AB77-1DED0F5D75CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A6758AA-38C9-4486-AB77-1DED0F5D75CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E2B66E6-F695-4228-829F-0B14C4D1BFBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E2B66E6-F695-4228-829F-0B14C4D1BFBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E2B66E6-F695-4228-829F-0B14C4D1BFBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E2B66E6-F695-4228-829F-0B14C4D1BFBC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{610E0EE8-C9FC-4F26-834C-768A25999A6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{610E0EE8-C9FC-4F26-834C-768A25999A6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{610E0EE8-C9FC-4F26-834C-768A25999A6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{610E0EE8-C9FC-4F26-834C-768A25999A6A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
